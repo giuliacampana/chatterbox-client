@@ -27,9 +27,12 @@
     <div id="main">
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
-      <div>Room:<select id='rooms'></select></div>
-      <div><input type="text" name="chat"></div>
+      <div>Room:<select id='rooms'><option value="newRoom"> New Room... </option></select></div>
+      <div><input id = "message" type="text" name="chat"></div>
       <button id='submit'>Submit</button>
+      <div><input id = "newRoom" type="text" name="newRoom"></div>
+      <button id='createRoom'>Create Room</button>
+      <button id='refresh'>Refresh Messages</button>
     </div>
     <div id="chats"></div>
     

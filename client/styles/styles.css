@@ -2,7 +2,7 @@ body {
     background: #eee;
     text-align: center;
     padding: 0 25px;
-    font-family: arial, sans-serif;
+    font-family: Avenir, sans-serif;
 }
 
 #main, #chats {
@@ -20,6 +20,8 @@ body {
     font-size: 35px;
     margin-bottom: 5px;
     padding: 5px;
+    text-align: center;
+    letter-spacing: 6px;
 }
 
 #main h1 span {
@@ -28,6 +30,11 @@ body {
 
 #main ul {
     padding-left: 20px;
+}
+
+#main #roomMenu {
+    text-align: center;
+    margin: 20px;
 }
 
 #main .error {
@@ -59,6 +66,44 @@ form input[type=text] {
     padding: 5px;
 }
 
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#rooms {
+    margin: 10px;
+}
+
+#submitMessage {
+    margin-left: 140px;
+    width: 275px;
+}
+
+#submitMessage #message {
+    margin: 10px;
+}
+
+#createNewRoom {
+    margin-left: 110px;
+}
+
+#createNewRoom #newRoom {
+    margin: 10px;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#refresh {
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
 .chat {
     padding: 5px;
     margin-bottom: 5px;
@@ -84,7 +129,6 @@ form input[type=text] {
 }
 
 .friend {
-    color: #fff;
-    background-color: #0090da;
+    background-color: #e6f9ff;
 }
 
